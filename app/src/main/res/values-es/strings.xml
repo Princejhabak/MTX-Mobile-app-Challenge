@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name = "app_name"> Respuesta de MTX Coronavirus <br> (COVID-19) </br> </string>
+<string name = "navigation_drawer_open"> Abrir el cajón de navegación </string>
+<string name = "navigation_drawer_close"> Cerrar el cajón de navegación </string>
+<string name = "nav_header_title"> Android Studio </string>
+<string name = "nav_header_subtitle"> android.studio@android.com </string>
+<string name = "nav_header_desc"> Encabezado de navegación </string>
+<string name = "action_signout"> Cerrar sesión </string>
+
+<string name = "menu_home"> Inicio </string>
+<string name = "menu_gallery"> Galería </string>
+<string name = "menu_slideshow"> Presentación de diapositivas </string>
+<string name = "menu_tools"> Herramientas </string>
+<string name = "menu_share"> Compartir </string>
+<string name = "menu_send"> Enviar </string>
+<string name = "title_activity_maps"> Mapa </string>
+
+<string name = "survey_instructions_heading"> Instrucciones </string>
+
+<string name = "survey_instructions_body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+
+<string name = "survey_instructions_start_button"> Iniciar encuesta </string>
+
+<string name = "survey_sub_heading1"> Elija una de las siguientes opciones. </string>
+<string name = "survey_sub_heading2"> Elija todas las opciones que correspondan. Si no aplica ninguno, haga clic en siguiente. </string>
+
+<string name = "survey_next_button"> Siguiente </string>
+<string name = "survey_previous_button"> Anterior </string>
+<string name = "survey_done_button"> Listo </string>
+<string name = "survey_back_home_button"> Volver a inicio </string>
+
+<string name = "survey_yes_button"> Sí </string>
+<string name = "survey_no_button"> No </string>
+<string name = "survey_unsure_button"> No estoy seguro </string>
+
+<string name = "survey_language_heading"> Elija idioma: "</string>
+<string name = "survey_language_en"> ES "</string>
+<string name = "survey_language_english"> Inglés </string>
+<string name = "survey_language_sp"> SP "</string>
+
+<string name = "survey_language_spanish"> español </string>
+<string name = "survey_enable_notification_heading"> ¿Habilitar notificaciones de exposición? </string>
+<string name = "survey_age_selector_heading"> Seleccione su rango de edad: </string>
+<string name = "survey_age_selector_sub_heading"> Deslice para elegir su grupo de edad. </string>
+<string name = "survey_age_selector_under18"> En \ n18 </string>
+
+<string name = "survey_age_selector_30"> 18–30 </string>
+
+<string name = "survey_age_selector_50"> 31–50 </string>
+<string name = "survey_age_selector_64"> 51–64 </string>
+<string name = "survey_age_selector_64plus"> 64+ </string>
+<string name = "survey_country_heading"> ¿Dónde vives? </string>
+<string name = "survey_country_sub_heading"> ¿Es usted residente de EE. UU.? </string>
+<string name = "survey_country_et_heading"> Seleccione su país de residencia: </string>
+<string name = "survey_country_et_hint"> Elija uno </string>
+
+<string name = "survey_gender_heading"> ¿Cuál es su sexo? </string>
+<string name = "survey_gender_male"> Masculino </string>
+<string name = "survey_gender_female"> Femenino </string>
+<string name = "survey_gender_skip"> SKIP </string>
+
+<string name = "survey_travel_history_heading"> ¿Has viajado a algún lugar recientemente? </string>
+<string name = "survey_travel_history_sub_heading"> (en los últimos 14 días) </string>
+<string name = "survey_travel_history_where"> ¿Dónde? </string>
+<string name = "survey_travel_history_et_hint"> Enumere todas las ciudades que ha visitado </string>
+
+<string name = "survey_contact_sharing_heading"> ¿Estaría dispuesto a compartir sus contactos con el departamento de salud? </string>
+<string name = "survey_contact_sharing_sub_heading"> Elija una de las opciones a continuación. </string>
+<string name = "notify_heading"> Notificaciones </string>
+<string name = "notify_dropdown_hint"> No leído </string>
+
+<string name = "survey_details_heading"> Agregue los nombres y las relaciones de las personas con las que ha estado más recientemente </string>
+<string name = "survey_details_choose_relationship"> Elija la relación </string>
+<string name = "survey_details_gender"> Género </string>
+<string name = "survey_details_age"> Edad </string>
+<string name = "survey_details_name"> Ingrese el nombre completo </string>
+<string name = "survey_details_address1"> Línea de dirección </string>
+<string name = "survey_details_address2"> Ciudad, estado y código postal </string>
+<string name = "survey_details_phone"> Número de teléfono </string>
+<string name = "survey_details_save"> Guardar </string>
+<string name = "survey_details_add_another"> Agregar otra persona </string>
+
+<string name = "survey_covid_testing"> ¿Ha dado positivo por COVID-19? </string>
+
+<string name = "survey_close_contact"> ¿Has estado en contacto cercano con alguien que tiene COVID-19? </string>
+
+<string name = "survey_how_feeling_heading"> ¿Cómo te sientes? </string>
+<string name = "survey_how_feeling_sick"> Enfermo </string>
+<string name = "survey_how_feeling_well"> Bueno </string>
+
+<string name = "survey_symptoms_heading"> ¿Experimenta alguno de estos síntomas? </string>
+<string name = "survey_symptoms_fever"> Fiebre </string>
+<string name = "survey_symptoms_cough"> Tos </string>
+<string name = "survey_symptoms_breadth"> Falta de amplitud </string>
+
+<string name = "survey_seek_medical_care_heading"> ¿Tiene la intención de buscar atención médica? </string>
+
+<string name = "survey_preconditions_heading"> Seleccione cualquier condición preexistente que tenga: </string>
+<string name = "survey_preconditions1"> Enfermedad cardíaca </string>
+<string name = "survey_preconditions2"> Asma </string>
+<string name = "survey_preconditions3"> Enfermedad pulmonar </string>
+<string name = "survey_preconditions4"> Diabetes </string>
+<string name = "survey_preconditions5"> Cáncer </string>
+<string name = "survey_preconditions6"> Enfermedad autoinmune </string>
+<string name = "survey_preconditions7"> Obesidad </string>
+
+<string name = "survey_prevention_heading"> ¿Está tomando medidas para evitar la propagación de COVID-19? </string>
+<string name = "survey_prevention1"> Distanciamiento social </string>
+<string name = "survey_prevention2"> Lavarse las manos con frecuencia </string>
+<string name = "survey_prevention3"> Evitar el contacto cercano con otros y multitudes </string>
+<string name = "survey_prevention4"> Reducir o evitar viajes </string>
+<string name = "survey_prevention5"> Quedarse en casa si está enfermo </string>
+<string name = "survey_prevention6"> Limpieza diaria y desinfección de superficies tocadas con frecuencia. </string>
+
+<string name = "survey_concerns_heading"> Como resultado de las preocupaciones de COVID-19, ¿está haciendo algo de lo siguiente? </string>
+<string name = "survey_concerns1"> Consultando el sitio web de los Centros para el Control y la Prevención de Enfermedades para obtener información </string>
+<string name = "survey_concerns2"> Consultar el sitio web del Departamento de Salud de EE. UU. para obtener información </string>
+<string name = "survey_concerns3"> Consultar a mi médico </string>
+<string name = "survey_concerns4"> Mantener a los miembros del hogar en casa mientras dure el brote </string>
+<string name = "survey_concerns5"> Abastecimiento de medicamentos </string>
+<string name = "survey_concerns6"> Otro </string>
+
+<string name = "survey_thanks_heading"> ¡Gracias por enviar la encuesta! </string>
+<string name = "survey_thanks_sub_heading"> Tómese un momento para revisar los enlaces relacionados con COVID-19 a continuación. </string>
+<string name = "survey_thanks_link1"> Departamento de Salud de EE. UU. </string>
+<string name = "survey_thanks_lin2"> Enfermedad por coronavirus 2019 - Organización Mundial de la Salud </string>
+
+<string name = "survey_history"> Historial de encuestas </string>
+<string name = "survey_history_empty_view"> Crunching datos más recientes </string>
+
+
+<string name = "navigation_take_survey"> Realice la encuesta </string>
+<string name = "navigation_survey_hsitory"> Historial de encuestas </string>
+<string name = "navigation_exposure"> Mi exposición de proximidad </string>
+<string name = "navigation_language"> Opciones de idioma </string>
+<string name = "navigation_notifications"> Notificaciones </string>
+<string name = "navigation_exposure_settings"> Configuración de exposición </string>
+<string name = "navigation_guidelines"> Precauciones y orientación de Covid-19 del CDC </string>
+
+<string name = "fence_exposure_heading"> Exposiciones sintomáticas en proximidad </string>
+
+<string name = "Registration_heading"> Registrarse "</string>
+<string name = "Registration_mobile_no"> Número de móvil </string>
+<string name = "Registration_note"> NOTA: El número de móvil será verificado por OTP, asegúrese de ingresar el número correcto. </string>
+<string name = "Registration_signin"> ¿Ya está registrado? Iniciar sesión </string>
+
+
+
+<string name = "residency_country_prompt"> Elija uno </string>
+<string-array name = "países" formatted = "false" traducible = "false">
+    <item> Afganistán </item>
+    <item> Albania </item>
+    <item> Argelia </item>
+    <item> Samoa Americana </item>
+    <item> Andorra </item>
+    <item> Angola </item>
+    <item> Antigua y Barbuda </item>
+    <item> Argentina </item>
+    <item> Armenia </item>
+    <item> Aruba </item>
+    <item> Australia </item>
+    <item> Austria </item>
+    <item> Azerbaiyán </item>
+    <item> Bahamas </item>
+    <item> Bahrein </item>
+    <item> Bangladesh </item>
+    <item> Barbados </item>
+    <item> Bielorrusia </item>
+    <item> Bélgica </item>
+    <item> Belice </item>
+    <item> Benin </item>
+    <item> Bermudas </item>
+    <item> Bután </item>
+    <item> Bolivia </item>
+    <item> Bosnia y Herzegovina </item>
+    <item> Botswana </item>
+    <item> Brasil </item>
+    <item> Islas Vírgenes Británicas </item>
+    <item> Brunei </item>
+    <item> Bulgaria </item>
+    <item> Burkina Faso </item>
+    <item> Burundi </item>
+    <item> Camboya </item>
+    <item> Camerún </item>
+    <item> Canadá </item>
+    <item> Islas Canarias </item>
+    <item> Cabo Verde </item>
+    <item> Islas Caimán </item>
+    <item> República Centroafricana </item>
+    <item> Ceuta y Melilla </item>
+    <item> Chad </item>
+    <item> Chile </item>
+    <item> China </item>
+    <item> Colombia </item>
+    <item> Comoras </item>
+    <item> Congo [RDC] </item>
+    <item> Congo [República] </item>
+    <item> Costa Rica </item>
+    <item> Croacia </item>
+    <item> Cuba </item>
+    <item> Curaçao </item>
+    <item> Chipre </item>
+    <item> República Checa </item>
+    <item> Costa de Marfil </item>
+    <item> Dinamarca </item>
+    <item> Djibouti </item>
+    <item> Dominica </item>
+    <item> República Dominicana </item>
+    <item> Ecuador </item>
+    <item> Egipto </item>
+    <item> El Salvador </item>
+    <item> Guinea Ecuatorial </item>
+    <item> Eritrea </item>
+    <item> Estonia </item>
+    <item> Etiopía </item>
+    <item> Europa </item>
+    <item> Islas Feroe </item>
+    <item> Fiji </item>
+    <item> Finlandia </item>
+    <item> Francia </item>
+    <item> Guayana Francesa </item>
+    <item> Polinesia Francesa </item>
+    <item> Gabón </item>
+    <item> Gambia </item>
+    <item> Georgia </item>
+    <item> Alemania </item>
+    <item> Ghana </item>
+    <item> Gibraltar </item>
+    <item> Grecia </item>
+    <item> Groenlandia </item>
+    <item> Granada </item>
+    <item> Guadalupe </item>
+    <item> Guam </item>
+    <item> Guatemala </item>
+    <item> Guernsey </item>
+    <item> Guinea </item>
+    <item> Guinea-Bissau </item>
+    <item> Guyana </item>
+    <item> Haití </item>
+    <item> Honduras </item>
+    <item> Hong Kong </item>
+    <item> Hungría </item>
+    <item> Islandia </item>
+    <item> India </item>
+    <item> Indonesia </item>
+    <item> Irán </item>
+    <item> Iraq </item>
+    <item> Irlanda </item>
+    <item> Isla de Man </item>
+    <item> Israel </item>
+    <item> Italia </item>
+    <item> Jamaica </item>
+    <item> Japón </item>
+    <item> Jersey </item>
+    <item> Jordan </item>
+    <item> Kazajstán </item>
+    <item> Kenia </item>
+    <item> Kiribati </item>
+    <item> Kuwait </item>
+    <item> Kirguistán </item>
+    <item> Laos </item>
+    <item> América Latina </item>
+    <item> Letonia </item>
+    <item> Líbano </item>
+    <item> Lesotho </item>
+    <item> Liberia </item>
+    <item> Libia </item>
+    <item> Liechtenstein </item>
+    <item> Lituania </item>
+    <item> Luxemburgo </item>
+    <item> Macao </item>
+    <item> Macedonia [ARYM] </item>
+    <item> Madagascar </item>
+    <item> Malawi </item>
+    <item> Malasia </item>
+    <item> Mali </item>
+    <item> Malta </item>
+    <item> Islas Marshall </item>
+    <item> Martinica </item>
+    <item> Mauritania </item>
+    <item> Mauricio </item>
+    <item> Mayotte </item>
+    <item> México </item>
+    <item> Micronesia </item>
+    <item> Moldavia </item>
+    <item> Mónaco </item>
+    <item> Mongolia </item>
+    <item> Montenegro </item>
+    <item> Marruecos </item>
+    <item> Mozambique </item>
+    <item> Myanmar [Birmania] </item>
+    <item> Namibia </item>
+    <item> Nepal </item>
+    <item> Países Bajos </item>
+    <item> Nueva Caledonia </item>
+    <item> Nueva Zelanda </item>
+    <item> Nicaragua </item>
+    <item> Níger </item>
+    <item> Nigeria </item>
+    <item> Corea del Norte </item>
+    <item> Islas Marianas del Norte </item>
+    <item> Noruega </item>
+    <item> Omán </item>
+    <item> Pakistán </item>
+    <item> Palau </item>
+    <item> Palestina </item>
+    <item> Panamá </item>
+    <item> Papua Nueva Guinea </item>
+    <item> Paraguay </item>
+    <item> Perú </item>
+    <item> Filipinas </item>
+    <item> Polonia </item>
+    <item> Portugal </item>
+    <item> Puerto Rico </item>
+    <item> Qatar </item>
+    <item> Rumania </item>
+    <item> Rusia </item>
+    <item> Ruanda </item>
+    <item> Reunión </item>
+    <item> San Bartolomé </item>
+    <item> San Cristóbal y Nieves </item>
+    <item> Santa Lucía </item>
+    <item> San Martín </item>
+    <item> San Vicente y las Granadinas </item>
+    <item> Samoa </item>
+    <item> San Marino </item>
+    <item> Arabia Saudita </item>
+    <item> Senegal </item>
+    <item> Serbia </item>
+    <item> Seychelles </item>
+    <item> Sierra Leona </item>
+    <item> Singapur </item>
+    <item> Sint Maarten </item>
+    <item> Eslovaquia </item>
+    <item> Eslovenia </item>
+    <item> Islas Salomón </item>
+    <item> Somalia </item>
+    <item> Sudáfrica </item>
+    <item> Corea del Sur </item>
+    <item> Sudán del Sur </item>
+    <item> España </item>
+    <item> Sri Lanka </item>
+    <item> Sudán </item>
+    <item> Surinam </item>
+    <item> Swazilandia </item>
+    <item> Suecia </item>
+    <item> Suiza </item>
+    <item> Siria </item>
+    <item> Santo Tomé y Príncipe </item>
+    <item> Taiwán </item>
+    <item> Tanzania </item>
+    <item> Tailandia </item>
+    <item> Timor-Leste </item>
+    <item> Togo </item>
+    <item> Tonga </item>
+    <item> Trinidad y Tobago </item>
+    <item> Túnez </item>
+    <item> Turquía </item>
+    <item> Islas Turcas y Caicos </item>
+    <item> Islas ultramarinas de EE. UU. </item>
+    <item> Islas Vírgenes de los Estados Unidos </item>
+    <item> Uganda </item>
+    <item> Ucrania </item>
+    <item> Emiratos Árabes Unidos </item>
+    <item> Reino Unido </item>
+    <item> Estados Unidos </item>
+    <item> Uruguay </item>
+    <item> Uzbekistán </item>
+    <item> Vanuatu </item>
+    <item> Venezuela </item>
+    <item> Vietnam </item>
+    <item> Sáhara Occidental </item>
+    <item> Yemen </item>
+    <item> Zambia </item>
+    <item> Zimbabwe </item>
+    <item> Islas Åland </item>
+</string-array>
+
+<string-array name = "notification_status" formatted = "false" translatable = "false">
+    <item> No leído </item>
+    <item> Leer </item>
+</string-array>
+
+<string-array name = "survey_gender" formatted = "false" translatable = "false">
+    <item> Masculino </item>
+    <item> Femenino </item>
+    <item> Otro </item>
+</string-array>
+
+<string-array name = "survey_relationship" formatted = "false" translatable = "false">
+    <item> Padre </item>
+    <item> Madre </item>
+    <item> Hijo </item>
+    <item> Hija </item>
+</string-array>
+
+
+</resources>

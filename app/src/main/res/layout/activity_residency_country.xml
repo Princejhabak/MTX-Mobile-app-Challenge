@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_country_heading"
+        android:gravity="center_horizontal"
+        style="@style/SurveyHeading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_country_sub_heading"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        style="@style/SurveyBody"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/survey_residency_no_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_thumdown"
+            style="@style/SurveyButtonLayout"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/survey_residency_no_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_no_button"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/survey_residency_yes_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_thumup"
+            style="@style/SurveyButtonLayout"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/survey_residency_yes_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/survey_yes_button"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/survey_residency_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_country_et_heading"
+        android:layout_margin="32dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:visibility="gone"
+        style="@style/SurveyBody"/>
+
+        <LinearLayout
+            android:id="@+id/survey_residency_ll_spinner"
+            android:background="@drawable/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:visibility="gone"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:padding="16dp">
+
+            <Spinner
+                android:id="@+id/survey_residency_spinner"
+                android:layout_width="wrap_content"
+                android:overlapAnchor="false"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:spinnerMode="dialog"
+                android:prompt="@string/residency_country_prompt"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_margin="32dp">
+
+        <TextView
+            android:id="@+id/survey_residency_previous_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_previous_button"
+            style="@style/SurveyPrevious"/>
+
+        <TextView
+            android:id="@+id/survey_residency_next_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_next_button"
+            style="@style/SurveyNext"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_details_heading"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:background="@drawable/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <Spinner
+            android:id="@+id/survey_contact_details_relation_spinner"
+            android:layout_width="wrap_content"
+            android:overlapAnchor="false"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:spinnerMode="dialog"
+            android:prompt="@string/survey_details_choose_relationship" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/survey_contact_details_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/survey_details_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:background="@drawable/edit_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:padding="16dp">
+
+            <Spinner
+                android:id="@+id/survey_contact_details_gender_spinner"
+                android:layout_width="wrap_content"
+                android:overlapAnchor="false"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:spinnerMode="dialog"
+                android:prompt="@string/survey_details_gender"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/survey_contact_details_age"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:padding="16dp"
+            android:background="@drawable/edit_text"
+            android:hint="@string/survey_details_age" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/survey_contact_details_address1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/survey_details_address1" />
+
+
+    <EditText
+        android:id="@+id/survey_contact_details_address2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/survey_details_address2" />
+
+    <EditText
+        android:id="@+id/survey_contact_details_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="16dp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/survey_details_phone" />
+
+    <Button
+        android:id="@+id/survey_contact_details_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_details_save"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_save_contact_sharing"/>
+
+    <LinearLayout
+        android:id="@+id/survey_contact_details_li_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/button_active"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/survey_contact_details_li_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Trashae Hubbard (Father)"
+                android:textColor="@android:color/black"
+                android:layout_alignParentStart="true"/>
+
+            <ImageButton
+                android:id="@+id/survey_contact_details_li_edit"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/button_edit_another_person"
+                android:src="@drawable/ic_edit" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/survey_contact_details_li_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Male, 55 Years" />
+
+        <TextView
+            android:id="@+id/survey_contact_details_li_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="491 Malviya Nagar"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/survey_contact_details_li_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="+91 8954678456"
+            android:textStyle="italic"
+            android:textColor="#bababa"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/survey_contact_details_add_person_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_details_add_another"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#376DC8"
+        android:background="@drawable/button_add_another_person"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:id="@+id/survey_contact_details_previous_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_previous_button"
+            style="@style/SurveyPrevious"/>
+
+        <TextView
+            android:id="@+id/survey_contact_details_next_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_next_button"
+            style="@style/SurveyNext"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

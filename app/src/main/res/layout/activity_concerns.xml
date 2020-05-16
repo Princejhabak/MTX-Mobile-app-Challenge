@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_concerns_heading"
+        android:gravity="center_horizontal"
+        style="@style/SurveyHeading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/survey_sub_heading2"
+        style="@style/SurveyBody"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="32dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/survey_concerns_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_concerns1"
+            style="@style/TextViewOptions"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/survey_concerns_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_concerns2"
+            style="@style/TextViewOptions"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/survey_concerns_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_concerns3"
+            style="@style/TextViewOptions"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/survey_concerns_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_concerns4"
+            style="@style/TextViewOptions"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/survey_concerns_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_concerns5"
+            style="@style/TextViewOptions"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/survey_concerns_f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_concerns6"
+            style="@style/TextViewOptions"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_margin="32dp">
+
+        <TextView
+            android:id="@+id/survey_concerns_previous"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_previous_button"
+            style="@style/SurveyPrevious"/>
+
+        <TextView
+            android:id="@+id/survey_concerns_next"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/survey_next_button"
+            style="@style/SurveyNext"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

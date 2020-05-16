@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Survey Summary"
+                android:textAlignment="center"
+                style="@style/SurveyHeading"/>
+
+            <TextView
+                android:id="@+id/survey_details_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="April 1, 2020 - 4:24 AM"
+                style="@style/CardViewText"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please select your age"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="31-50"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="in which country do you reside"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USA"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is your sex"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Have you travelled anywhere recently"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            style="@style/CardViewText"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/survey_details_h41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where?"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canada"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Have you been in close contact with someone who has covid-19"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unsure"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How are you feeling"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sick"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are you feeling any of these symptoms"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fever\nCough"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DO you plan to seek medical care"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select any pre-existing condition(s) you have"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asthma\nObesity\nOther"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:id="@+id/survey_details_h10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are you taking any steps to prevent the spread of covid-19?"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step1\nStep2"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="32dp">
+
+        <TextView
+            android:id="@+id/survey_details_h11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="As a result of covid-19 concerns, are you doing any of the following?"
+            style="@style/CardViewHeading"/>
+
+        <TextView
+            android:id="@+id/survey_details_t11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consulting my doctor"
+            style="@style/CardViewText"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

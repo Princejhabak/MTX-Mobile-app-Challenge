@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginBottom="2dp"
+    android:background="@android:color/white"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/proximity_exposure_li_image_view"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="32dp"
+        tools:src="@drawable/ic_radar_red"
+        android:layout_marginEnd="8dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/proximity_exposure_li_no_of_exposures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="4 Confirmed Exposures"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/proximity_exposure_li_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            tools:text="Malviya Nagar, Jaipur" />
+
+        <TextView
+            android:id="@+id/proximity_exposure_li_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="April 1, 2020 - 5.15 PM"
+            android:textColor="#bababa"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/proximity_exposure_li_radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="500 ft radius"
+        android:textColor="#bababa"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+        android:drawablePadding="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_marginBottom="2dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/notification_li_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take a Survey of COVID-19"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/notification_li_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:text="Thanks for signing up to recieve alerts about\nU.S. dealing with COVID-19" />
+
+        <TextView
+            android:id="@+id/notification_li_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="April 1, 2020 - 5.15 PM"
+            android:textColor="#bababa"
+            android:textStyle="italic|bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

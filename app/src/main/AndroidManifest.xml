@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.android.surveyapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.ProximityExposureDetailsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.ProximityExposureActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.NotificationsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.SurveyDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.SurveyHistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.ChooseLanguageActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.ContactDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.ThanksActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.CovidPreventionActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.ConcernsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.PreConditionsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.SeekMedicalCareActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.SymptomsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.HowRUFeelingActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.CloseContactActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.CovidTestingActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.ContactSharingActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.TravelHistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.GenderActivity" android:screenOrientation="portrait" />
+        <activity android:name=".survey.ResidencyCountryActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.AgeSelectorActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".survey.EnableNotificitationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <receiver android:name=".MyLocationService" />
+    </application>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <dist:module dist:instant="true" />
+
+</manifest>

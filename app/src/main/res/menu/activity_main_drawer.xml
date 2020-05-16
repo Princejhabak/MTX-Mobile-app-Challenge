@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_take_survey"
+            android:icon="@drawable/ic_take_a_survey"
+            android:title="@string/navigation_take_survey" />
+
+        <item
+            android:id="@+id/nav_survey_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/navigation_survey_hsitory" />
+
+        <item
+            android:id="@+id/nav_proximity_exposure"
+            android:icon="@drawable/ic_exposur"
+            android:title="@string/navigation_exposure" />
+
+        <item
+            android:id="@+id/nav_exposure_setting"
+            android:icon="@drawable/ic_exposur"
+            android:title="@string/navigation_exposure_settings" />
+
+        <item
+            android:id="@+id/nav_language_setting"
+            android:icon="@drawable/ic_language_setting"
+            android:title="@string/navigation_language" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/navigation_notifications" />
+
+        <item
+            android:id="@+id/nav_guidance"
+            android:icon="@drawable/ic_information"
+            android:title="@string/navigation_guidelines" />
+
+
+</menu>
